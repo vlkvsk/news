@@ -1,0 +1,1 @@
+from assets.handlers import handler_start, handler_inline_all, handler_posts
