@@ -7,7 +7,8 @@ config_variables = {
     "a_chat_id": config.a_chat_id,
     "admin_id": config.admin_id,
     "tech_chat_id": config.tech_chat_id,
-    "channel_id": config.channel_id
+    "channel_id": config.channel_id,
+    "main_link": config.main_link
 }
 
 missing_variables = [k for k, v in config_variables.items() if not v]
